@@ -98,7 +98,7 @@ export default function ThisWebsitePage() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-4xl font-bold md:text-5xl"
           >
-            Shubham's Portfolio
+            Shubham&apos;s Portfolio
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -237,3 +237,4 @@ export default function ThisWebsitePage() {
     </motion.div>
   )
 }
+

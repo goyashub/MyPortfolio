@@ -83,7 +83,7 @@ export default function HomePage() {
           >
             <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
               <div className="flex-1">
-                <h3 className="mb-2 text-2xl font-bold text-white">Shubham's Portfolio Website</h3>
+                <h3 className="mb-2 text-2xl font-bold text-white">Shubham&apos;s Portfolio Website</h3>
                 <p className="mb-4 text-gray-300">
                   A Netflix-style portfolio built with Next.js 14, TypeScript, and PostgreSQL.
                   Features smooth animations, admin dashboard, and full-stack functionality.

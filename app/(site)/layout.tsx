@@ -13,7 +13,7 @@ export default function SiteLayout({
       <nav className="sticky top-0 z-40 border-b border-gray-800 bg-black/80 backdrop-blur-sm">
         <div className="container mx-auto flex items-center justify-between px-4 py-4">
           <Link href="/" className="text-2xl font-bold text-red-600">
-            Shubham's Portfolio
+            Shubham&apos;s Portfolio
           </Link>
           <div className="flex items-center gap-4">
             <SearchBar />
