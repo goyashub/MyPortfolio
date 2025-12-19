@@ -171,13 +171,6 @@ export function ProjectForm({ project, onClose, onSuccess }: ProjectFormProps) {
             <Input {...register('githubUrl')} type="url" />
           </div>
 
-          <div>
-            <label className="flex items-center gap-2">
-              <input type="checkbox" {...register('featured')} />
-              <span>Featured</span>
-            </label>
-          </div>
-
           <div className="flex gap-4">
             <Button type="submit">{project ? 'Update' : 'Create'}</Button>
             <Button type="button" variant="outline" onClick={onClose}>

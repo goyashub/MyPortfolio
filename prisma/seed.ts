@@ -20,11 +20,11 @@ async function main() {
   // Create categories
   const categories = await Promise.all([
     prisma.category.upsert({
-      where: { slug: 'featured' },
+      where: { slug: 'all' },
       update: {},
       create: {
-        name: 'Featured',
-        slug: 'featured',
+        name: 'All',
+        slug: 'all',
         sortOrder: 1,
       },
     }),
@@ -91,7 +91,7 @@ async function main() {
       githubUrl: 'https://github.com/example/ecommerce-app',
       liveUrl: 'https://apps.apple.com/example',
       featured: true,
-      categorySlugs: ['featured', 'ios-swiftui'],
+      categorySlugs: ['all', 'ios-swiftui'],
     },
     {
       title: 'RESTful API Platform',
@@ -111,7 +111,7 @@ async function main() {
       githubUrl: 'https://github.com/example/api-platform',
       liveUrl: 'https://api.example.com',
       featured: true,
-      categorySlugs: ['featured', 'backend-apis'],
+      categorySlugs: ['all', 'backend-apis'],
     },
     {
       title: 'Cloud Infrastructure Setup',
@@ -266,7 +266,7 @@ async function main() {
       ],
       caseStudyUrl: 'https://example.com/case-study',
       featured: true,
-      categorySlugs: ['case-studies', 'featured'],
+      categorySlugs: ['case-studies', 'all'],
     },
   ]
 
